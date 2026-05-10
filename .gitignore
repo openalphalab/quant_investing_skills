@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Generated artefacts (blog renders, data snapshots)
+*.png
+*.parquet
+*.csv
+
+# Local demo scripts
+examples/
+
+# OS
+.DS_Store
+Thumbs.db
