@@ -23,8 +23,15 @@ fund universe -> industry classification -> point-in-time fundamentals -> price 
 
 Each step can also be run independently. The shared design principle is that data should be explicit about timing, source, and assumptions so downstream factor research can avoid accidental look-ahead bias.
 
+## Write-ups
+
+Companion write-ups explain the thinking behind these skills and the workflows they support. This list will grow over time:
+
+- [AI Agent Skills for Equity Factor Investing, Part I](https://www.linkedin.com/pulse/ai-agent-skills-equity-factor-investing-part-i-ganchi-zhang-2xsqe/)
+
 ## Contents
 
+- [Write-ups](#write-ups)
 - [Requirements](#requirements)
 - [Install](#install)
 - [Configure SEC identity](#configure-sec-identity)
