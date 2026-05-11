@@ -2,7 +2,7 @@
 name: classifying-industry
 version: 0.1.0
 license: MIT
-author: ganchi.zhang@gmail.com
+author: openalphalab@gmail.com
 description: Enriches NPORT-P fund holdings (or any DataFrame keyed by ticker / ISIN) with industry classifications from two authoritative taxonomies — financedatabase (sector, industry_group, industry; MSCI-style) and SEC EDGAR (sic, sic_industry; regulatory). Accepts either a holdings DataFrame (e.g. from the fetching-fund-universe skill) or a fund ticker string (fetched internally via fund_holdings). Returns a pandas DataFrame keyed by (ticker, isin). Use when the user asks to classify stocks by sector or industry, map tickers to SIC codes, attach MSCI-style taxonomy to a universe, look up sector/industry for fund holdings, or group equities by industry.
 ---
 

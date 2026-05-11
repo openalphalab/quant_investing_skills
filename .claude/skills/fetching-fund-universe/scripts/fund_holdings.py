@@ -337,7 +337,7 @@ def _atom_refs(series_id: str, *, page_size: int = 100) -> list[_Ref]:
     Handles pagination by walking `&start=` offsets until a page returns fewer
     than `page_size` entries.
     """
-    ua = os.environ.get("EDGAR_IDENTITY") or "ganchi.zhang@gmail.com"
+    ua = os.environ.get("EDGAR_IDENTITY") or "openalphalab@gmail.com"
     out: list[_Ref] = []
     start = 0
     with httpx.Client(headers={"User-Agent": ua}, timeout=30.0) as client:

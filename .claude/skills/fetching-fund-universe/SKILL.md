@@ -2,7 +2,7 @@
 name: fetching-fund-universe
 version: 0.1.0
 license: MIT
-author: ganchi.zhang@gmail.com
+author: openalphalab@gmail.com
 description: Fetches fund and ETF holdings universes from SEC EDGAR NPORT-P filings for a given fund ticker (e.g., SPY, QQQ, VOO, IWM, VTI), with optional filtering by filing date. Returns a pandas DataFrame containing every portfolio holding plus filling_date, reporting_date, and ticker_resolved (NPORT ticker, falling back to a yfinance ISIN lookup). Use when the user asks to build a stock universe from a fund, inspect ETF composition, retrieve fund holdings, pull NPORT-P filings, analyse portfolio snapshots as of a specific date, or compare fund holdings across reporting periods.
 ---
 
